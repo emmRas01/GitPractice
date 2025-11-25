@@ -10,4 +10,8 @@ void main() {
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
         IO.println("i = " + i);
     }
+
+    Circle circle = new Circle();
+    System.out.println("The area of a: " + circle.getName() + " " + circle.getArea());
+
 }
