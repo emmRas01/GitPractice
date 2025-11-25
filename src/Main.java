@@ -12,6 +12,9 @@ void main() {
     }
 
     Circle circle = new Circle();
-    System.out.println("The area of a: " + circle.getName() + " " + circle.getArea());
+    System.out.println("The area of a " + circle.getName() + circle.getArea());
+
+    Square square = new Square();
+    System.out.println(square.areal(5,2));
 
 }
